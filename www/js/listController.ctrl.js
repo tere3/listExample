@@ -1,4 +1,4 @@
-angular.module('ionicApp', [])
+angular.module('listModule', [])
 .controller('listController', function($scope, $state){
 	$scope.data={
 		showDelete: false
